@@ -1,0 +1,41 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/local/bin/npm', 'start' ]
+info using npm@1.1.24
+info using node@v0.6.19
+verbose /usr/local/bin/node node symlink
+verbose config file /Users/Atrosity/.npmrc
+verbose config file /usr/local/etc/npmrc
+verbose config file /usr/local/lib/node_modules/npm/npmrc
+verbose caching /Users/Atrosity/Projects/core-admin/package.json
+verbose loadDefaults todos-backbone-node-sockets-lock@0.0.2
+verbose run-script [ 'prestart', 'start', 'poststart' ]
+info prestart todos-backbone-node-sockets-lock@0.0.2
+info start todos-backbone-node-sockets-lock@0.0.2
+verbose unsafe-perm in lifecycle true
+silly exec sh "-c" "node app"
+silly spawning [ 'sh',
+silly spawning   [ '-c', 'node app' ],
+silly spawning   '/Users/Atrosity/Projects/core-admin' ]
+info todos-backbone-node-sockets-lock@0.0.2 Failed to exec start script
+ERR! todos-backbone-node-sockets-lock@0.0.2 start: `node app`
+ERR! `sh "-c" "node app"` failed with 1
+ERR! 
+ERR! Failed at the todos-backbone-node-sockets-lock@0.0.2 start script.
+ERR! This is most likely a problem with the todos-backbone-node-sockets-lock package,
+ERR! not with npm itself.
+ERR! Tell the author that this fails on your system:
+ERR!     node app
+ERR! You can get their info via:
+ERR!     npm owner ls todos-backbone-node-sockets-lock
+ERR! There is likely additional logging output above.
+ERR! 
+ERR! System Darwin 11.4.0
+ERR! command "node" "/usr/local/bin/npm" "start"
+ERR! cwd /Users/Atrosity/Projects/core-admin
+ERR! node -v v0.6.19
+ERR! npm -v 1.1.24
+ERR! code ELIFECYCLE
+ERR! message todos-backbone-node-sockets-lock@0.0.2 start: `node app`
+ERR! message `sh "-c" "node app"` failed with 1
+ERR! errno {}
+verbose exit [ 1, true ]
